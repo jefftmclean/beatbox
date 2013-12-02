@@ -1,0 +1,46 @@
+* {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+}
+html {
+	height: 100%;
+}
+body {
+	background: #333;
+	padding: 50px;
+	height: 100%;
+}
+#beatbox {
+	width: 80%;
+	height: 80%;
+	border: 3px solid yellow;
+	padding: 0;
+}
+div {
+	padding: 5px;
+}
+ul {
+	float: left;
+	width: 100%;
+	height: 12.5%;
+}
+li {
+	float: left;
+	display: block;
+	box-shadow: inset 0 0 0 1px #444;
+	width: 8.3%;
+	height: 100%;
+}
+span {
+	color: white;
+}
+button {
+	background: none;
+	border: none;
+	color: yellow;
+	font-weight: 900;
+	font-size: 18px;
+}
